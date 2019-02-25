@@ -4,3 +4,10 @@ https://godoc.org/
 Ex: go get github.com/aws/aws-sdk-go/aws
 
 go starts with main func
+go run [name of go file] --to run 
+go install --creates a binary in the bin folder of workspace
+
+playground 
+https://play.golang.org/
+
+you have to use variable, otherwise you will get error
