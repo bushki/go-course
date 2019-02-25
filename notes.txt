@@ -1,0 +1,6 @@
+Repository for packages is godoc
+https://godoc.org/
+
+Ex: go get github.com/aws/aws-sdk-go/aws
+
+go starts with main func
