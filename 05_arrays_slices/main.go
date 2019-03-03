@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Helo World")
+	fmt.Println("Hello World")
 	//Arrays (fixed)
 	var fruitArr [2]string
 
