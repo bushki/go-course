@@ -26,4 +26,12 @@ func main() {
 	fmt.Println(emails)
 	delete(emails, "Jim")
 	fmt.Println(emails)
+
+	//declare and assign kv
+	fmt.Println("*** Presidents ***")
+	presidents := map[int]string{1: "George Washington", 2: "John Adams", 3: "Thomas Jefferson"}
+	presidents[4] = "James Madison"
+	fmt.Println(presidents)
+	fmt.Println(presidents[2])
+
 }
