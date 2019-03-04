@@ -5,7 +5,16 @@ import (
 	"math"
 )
 
+/*
+linter issue "should have comment or be exported "
+https://github.com/golang/lint/issues/191
+and
+https://github.com/golang/lint/issues/191
+*/
+
 //define interface
+
+//Shape : This is where you say what this is for
 type Shape interface {
 	area() float64
 }
