@@ -7,10 +7,8 @@ import (
 
 //define struct
 type Person struct {
-	firstName string
-	lastName  string
-	age       int
-	city      string
+	firstName, lastName, city string
+	age                       int
 }
 
 //greeting method (value receiver)
@@ -36,7 +34,7 @@ func main() {
 	fmt.Println(person1)
 
 	//alternative init
-	person2 := Person{"Jane", "Doe", 26, "NYC"}
+	person2 := Person{"Jane", "Doe", "NYC", 26}
 	fmt.Println(person2)
 
 	//change and print field
