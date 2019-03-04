@@ -1,1 +1,1 @@
-# go-course
+# golang basics
